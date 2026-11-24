@@ -1,0 +1,306 @@
+# MANIFEST
+
+Every file in this folder, one line each: path, what it is, what made it.
+
+
+- `MANIFEST.md` — This file: every file in the folder. Made by: written by hand.
+- `README.md` — How to install and run everything (start here). Made by: written by hand.
+- `report/ID5080_MangroveMazeRunners_report.pdf` — The report. Made by: report/ID5080_MangroveMazeRunners_report.tex (pdflatex, run twice).
+- `report/ID5080_MangroveMazeRunners_report.tex` — LaTeX source of the report, editable. Made by: written by hand.
+- `report/figures/G8_current.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/G9_current.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/G_vs_Gtopo.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/comparison_5.pdf` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/cycle_rank_merged.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/edge_conductance_hist.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/eta.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/gcc_glcc_top.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/image_and_mask.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/multiscale.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/network_G6.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/networks_merged_sea.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/persistence_map_crop.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/raw_vs_clean.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/turnover.png` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `report/figures/zscores.pdf` — Figure used in the report. Made by: copied from data_processed/, members/ and extras/.
+- `figure/ID5080_MangroveMazeRunners_fig.pdf` — Final network figure, A2 vector PDF. Made by: scripts/04_final_figure.py.
+- `members/mohd_hamza/Individual_Contribution_Report.tex` — LaTeX source of the contribution report, editable. Made by: written by hand.
+- `common/sundarbans_rg.py` — Image to cleaned RivGraph graph: grid, water mask, shoreline, inlets, pruning. Made by: written by the team.
+- `common/sundarbans_simplified_network.py` — Edge weights (width/length), simplification, loading saved graphs. Made by: written by the team.
+- `common/tree_nulls.py` — Random-tree baselines and network parameters. Made by: written by the team.
+- `data_processed/basic_properties/basic_properties_ER_samples.csv` — Same properties for 100 Erdos-Renyi graphs per year. Made by: scripts/02.
+- `data_processed/basic_properties/basic_properties_G.csv` — Basic properties of G1-G10 (report Sec. 5). Made by: scripts/02.
+- `data_processed/basic_properties/top_betweenness.csv` — Highest-betweenness node and edge per year. Made by: scripts/02.
+- `data_processed/timeseries/2016-10-17/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2016-10-17/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2016-10-17/rivgraph/2016-10-17_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2016-10-17/rivgraph/2016-10-17_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2016-10-17/rivgraph/2016-10-17_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2016-10-17/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2017-10-17/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2017-10-17/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2017-10-17/rivgraph/2017-10-17_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2017-10-17/rivgraph/2017-10-17_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2017-10-17/rivgraph/2017-10-17_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2017-10-17/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2019-11-16/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2019-11-16/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2019-11-16/rivgraph/2019-11-16_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2019-11-16/rivgraph/2019-11-16_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2019-11-16/rivgraph/2019-11-16_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2019-11-16/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2020-11-15/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2020-11-15/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2020-11-15/rivgraph/2020-11-15_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2020-11-15/rivgraph/2020-11-15_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2020-11-15/rivgraph/2020-11-15_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2020-11-15/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2021-11-10/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2021-11-10/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2021-11-10/rivgraph/2021-11-10_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2021-11-10/rivgraph/2021-11-10_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2021-11-10/rivgraph/2021-11-10_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2021-11-10/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2022-10-21/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2022-10-21/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2022-10-21/rivgraph/2022-10-21_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2022-10-21/rivgraph/2022-10-21_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2022-10-21/rivgraph/2022-10-21_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2022-10-21/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2023-10-16/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2023-10-16/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2023-10-16/rivgraph/2023-10-16_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2023-10-16/rivgraph/2023-10-16_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2023-10-16/rivgraph/2023-10-16_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2023-10-16/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2024-11-14/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2024-11-14/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2024-11-14/rivgraph/2024-11-14_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2024-11-14/rivgraph/2024-11-14_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2024-11-14/rivgraph/2024-11-14_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2024-11-14/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2025-10-22/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2025-10-22/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2025-10-22/rivgraph/2025-10-22_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2025-10-22/rivgraph/2025-10-22_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2025-10-22/rivgraph/2025-10-22_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2025-10-22/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/2026-10-20/inlets.gpkg` — Inlet points. Made by: scripts/01.
+- `data_processed/timeseries/2026-10-20/mask.tif` — Water mask on the common grid. Made by: scripts/01.
+- `data_processed/timeseries/2026-10-20/rivgraph/2026-10-20_fixlinks.csv` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2026-10-20/rivgraph/2026-10-20_log.log` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2026-10-20/rivgraph/2026-10-20_network.pkl` — RivGraph network, log and link-fix file for this year. Made by: scripts/01 (RivGraph).
+- `data_processed/timeseries/2026-10-20/shoreline.gpkg` — Copy of the shared shoreline used for this year. Made by: scripts/01.
+- `data_processed/timeseries/B_all_years.png` — Overview plot. Made by: scripts/01.
+- `data_processed/timeseries/G_all_years.png` — Overview plot. Made by: scripts/01.
+- `data_processed/timeseries/graphs/B10_2026-10-20.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B1_2016-10-17.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B2_2017-10-17.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B3_2019-11-16.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B4_2020-11-15.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B5_2021-11-10.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B6_2022-10-21.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B7_2023-10-16.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B8_2024-11-14.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/B9_2025-10-22.graphml` — Saved random-tree baseline for that year (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G10_2026-10-20.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G1_2016-10-17.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G2_2017-10-17.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G3_2019-11-16.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G4_2020-11-15.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G5_2021-11-10.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G6_2022-10-21.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G7_2023-10-16.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G8_2024-11-14.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/G9_2025-10-22.graphml` — Cleaned graph (GraphML). Made by: scripts/01.
+- `data_processed/timeseries/graphs/all_graphs.pkl` — All graphs, baselines, inlets and outlets (NetworkX pickle). Made by: scripts/01.
+- `data_processed/timeseries/graphs/index.csv` — Graph number, date and image file. Made by: scripts/01.
+- `data_processed/timeseries/metrics_G.csv` — Parameters of G1-G10. Made by: scripts/01.
+- `data_processed/timeseries/metrics_baseline_samples.csv` — Parameters of 1,000 random trees per year. Made by: scripts/01.
+- `data_processed/timeseries/shoreline_common.gpkg` — Shoreline shared by all years. Made by: scripts/01.
+- `data_processed/timeseries/trend_tests.csv` — Trend tests / distances from the random trees. Made by: scripts/01.
+- `data_processed/timeseries/trends_G_vs_baseline.png` — Overview plot. Made by: scripts/01.
+- `data_processed/timeseries/zscores_vs_baseline.csv` — Trend tests / distances from the random trees. Made by: scripts/01.
+- `data_processed/timeseries/zscores_vs_baseline.png` — Overview plot. Made by: scripts/01.
+- `data_processed/timeseries_weighted/2016-10-17/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2016-10-17/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2016-10-17/rivgraph/2016-10-17_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2016-10-17/rivgraph/2016-10-17_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2016-10-17/rivgraph/2016-10-17_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2016-10-17/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2017-10-17/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2017-10-17/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2017-10-17/rivgraph/2017-10-17_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2017-10-17/rivgraph/2017-10-17_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2017-10-17/rivgraph/2017-10-17_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2017-10-17/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2019-11-16/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2019-11-16/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2019-11-16/rivgraph/2019-11-16_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2019-11-16/rivgraph/2019-11-16_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2019-11-16/rivgraph/2019-11-16_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2019-11-16/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2020-11-15/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2020-11-15/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2020-11-15/rivgraph/2020-11-15_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2020-11-15/rivgraph/2020-11-15_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2020-11-15/rivgraph/2020-11-15_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2020-11-15/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2021-11-10/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2021-11-10/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2021-11-10/rivgraph/2021-11-10_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2021-11-10/rivgraph/2021-11-10_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2021-11-10/rivgraph/2021-11-10_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2021-11-10/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2022-10-21/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2022-10-21/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2022-10-21/rivgraph/2022-10-21_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2022-10-21/rivgraph/2022-10-21_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2022-10-21/rivgraph/2022-10-21_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2022-10-21/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2023-10-16/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2023-10-16/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2023-10-16/rivgraph/2023-10-16_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2023-10-16/rivgraph/2023-10-16_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2023-10-16/rivgraph/2023-10-16_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2023-10-16/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2024-11-14/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2024-11-14/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2024-11-14/rivgraph/2024-11-14_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2024-11-14/rivgraph/2024-11-14_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2024-11-14/rivgraph/2024-11-14_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2024-11-14/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2025-10-22/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2025-10-22/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2025-10-22/rivgraph/2025-10-22_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2025-10-22/rivgraph/2025-10-22_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2025-10-22/rivgraph/2025-10-22_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2025-10-22/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2026-10-20/inlets.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2026-10-20/mask.tif` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2026-10-20/rivgraph/2026-10-20_fixlinks.csv` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2026-10-20/rivgraph/2026-10-20_log.log` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2026-10-20/rivgraph/2026-10-20_network.pkl` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/2026-10-20/shoreline.gpkg` — Mask, inlets and RivGraph network for the weighted run. Made by: scripts/03.
+- `data_processed/timeseries_weighted/B_all_years.png` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/G_all_years.png` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/graph_counts.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B10_2026-10-20_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B10_2026-10-20_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B1_2016-10-17_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B1_2016-10-17_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B2_2017-10-17_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B2_2017-10-17_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B3_2019-11-16_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B3_2019-11-16_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B4_2020-11-15_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B4_2020-11-15_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B5_2021-11-10_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B5_2021-11-10_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B6_2022-10-21_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B6_2022-10-21_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B7_2023-10-16_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B7_2023-10-16_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B8_2024-11-14_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B8_2024-11-14_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B9_2025-10-22_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/B9_2025-10-22_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G10_2026-10-20_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G10_2026-10-20_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G1_2016-10-17_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G1_2016-10-17_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G2_2017-10-17_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G2_2017-10-17_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G3_2019-11-16_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G3_2019-11-16_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G4_2020-11-15_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G4_2020-11-15_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G5_2021-11-10_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G5_2021-11-10_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G6_2022-10-21_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G6_2022-10-21_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G7_2023-10-16_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G7_2023-10-16_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G8_2024-11-14_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G8_2024-11-14_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G9_2025-10-22_unweighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/G9_2025-10-22_weighted.graphml` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/all_graphs.pkl` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/graphs/index.csv` — Weighted / unweighted simplified graph or baseline. Made by: scripts/03.
+- `data_processed/timeseries_weighted/metrics_G_unweighted.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/metrics_G_weighted.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/metrics_baseline_unweighted_samples.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/metrics_baseline_weighted_samples.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/shoreline_common.gpkg` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/trend_tests.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/trends_unweighted.png` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/trends_weighted.png` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/zscores.png` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/zscores_unweighted.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_processed/timeseries_weighted/zscores_weighted.csv` — Weighted-run output (parameters, plots, shoreline). Made by: scripts/03.
+- `data_raw/images/10th November 2021.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/14th November 2024.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/15th Novemb er 2020.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/16th November 2019.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/16th October 2023.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/17th October 2016.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/17th October 2017.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/20th October 2026.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/21st October 2022.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/images/22nd October 2025.tiff` — Copernicus Sentinel-2 NDWI image, as downloaded. Made by: Copernicus Browser.
+- `data_raw/test_image_2016-01-18.tiff` — Extra Copernicus NDWI image used only for early tests. Made by: Copernicus Browser.
+- `environment.yml` — Conda environment with pinned package versions. Made by: written by hand.
+- `extras/exploration_notebooks/rivgraph_first_prototype_colab.ipynb` — Early exploration notebook (2016 test image); paths refer to the original working folder. Made by: written by the team.
+- `extras/exploration_notebooks/sundarbans_real_vs_random_trees_2016.ipynb` — Early exploration notebook (2016 test image); paths refer to the original working folder. Made by: written by the team.
+- `extras/exploration_notebooks/sundarbans_real_vs_tree_2016.ipynb` — Early exploration notebook (2016 test image); paths refer to the original working folder. Made by: written by the team.
+- `extras/exploration_notebooks/sundarbans_rivgraph_example_2016.ipynb` — Early exploration notebook (2016 test image); paths refer to the original working folder. Made by: written by the team.
+- `extras/reference_papers/Tejedor_2015_delta_channel_networks_2.pdf` — Reference paper (Tejedor et al. 2015). Made by: Wiley.
+- `extras/slides/Mangrove_Maze_presentation.pdf` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/slides/data_pipeline/data_pipeline_slides.tex` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/slides/data_pipeline/figures/image_and_mask.png` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/slides/data_pipeline/figures/raw_vs_clean.png` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/slides/graph_properties/figures/network_G6.png` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/slides/graph_properties/graph_properties_slides.tex` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/slides/title/figures/network_G6.png` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/slides/title/title_slide.tex` — Presentation slides (Beamer source, figures or PDF). Made by: written by the team.
+- `extras/teammate_slides_and_figures/conductance/conductance_slides.pdf` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/conductance/conductance_slides.tex` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/conductance/figures/G8_current.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/conductance/figures/G9_current.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/conductance/figures/G_vs_Gtopo.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/conductance/figures/edge_conductance_hist.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/conductance/figures/eta.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/connectivity/connectivity_slides.pdf` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/connectivity/connectivity_slides.tex` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/connectivity/figures/cycle_rank_merged.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/connectivity/figures/gcc_glcc_top.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/connectivity/figures/networks_merged_sea.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/persistence/figures/multiscale.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/persistence/figures/persistence_map_crop.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/persistence/figures/turnover.png` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/persistence/persistence_slides.pdf` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `extras/teammate_slides_and_figures/persistence/persistence_slides.tex` — Teammates' slides, notes and figures for conductance, connectivity and persistence. Made by: teammates.
+- `members/mohd_hamza/Individual_Contribution_Report.pdf` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/README.md` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/dip1.py` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/dip2.py` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/dip3.py` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/dip4.py` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/land_change_map.png` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/lost_creeks.csv` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/seam.csv` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/sensitivity.csv` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/ten_year_measures.csv` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/dip_2023_2024/ten_year_trends.csv` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/temporal_analysis/figures/comparison_5.pdf` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/temporal_analysis/figures/trend_tests_5params.csv` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/temporal_analysis/figures/zscores.pdf` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/temporal_analysis/make_temporal_figures.py` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/temporal_analysis/temporal_slides.pdf` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `members/mohd_hamza/temporal_analysis/temporal_slides.tex` — Mohd Hamza: see members/mohd_hamza/README.md. Made by: see that README.
+- `scripts/01_build_graphs_and_metrics.py` — Pipeline script (see README for order). Made by: written by the team.
+- `scripts/02_basic_properties.py` — Pipeline script (see README for order). Made by: written by the team.
+- `scripts/03_simplified_weighted_graphs.py` — Pipeline script (see README for order). Made by: written by the team.
+- `scripts/04_final_figure.py` — Pipeline script (see README for order). Made by: written by the team.
+- `.gitignore` — Files git should not track (system and LaTeX temporary files). Made by: written by hand.
+- `.gitattributes` — Marks images, PDFs and pickles as binary for git. Made by: written by hand.

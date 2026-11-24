@@ -1,0 +1,6 @@
+*.tif  binary
+*.tiff binary
+*.pdf  binary
+*.png  binary
+*.pkl  binary
+*.gpkg binary

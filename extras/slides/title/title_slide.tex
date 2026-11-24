@@ -1,0 +1,18 @@
+% Title slide for the Mangrove Maze deck.
+\documentclass[aspectratio=169]{beamer}
+\usepackage{tikz}
+\graphicspath{{figures/}}
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture, overlay]
+  \node[opacity=0.35, anchor=north] at (current page.north)
+    {\includegraphics[width=\paperwidth, trim=0 80 0 0, clip]{network_G6.png}};
+  \node[fill=white, fill opacity=0.92, text opacity=1, rounded corners=6pt,
+        inner xsep=22pt, inner ysep=14pt, align=center] at (current page.center)
+    {{\usebeamercolor[fg]{title}\fontsize{30}{36}\selectfont\bfseries Mangrove Maze}\\[8pt]
+     {\usebeamercolor[fg]{subtitle}\large ID5080: Complex Networks}};
+\end{tikzpicture}
+\end{frame}
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\setlist{itemsep=2pt,topsep=3pt}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\begin{document}
+
+{\LARGE\bfseries Individual Contribution Report}\\[4pt]
+{\color[gray]{0.35} ID5080 group project: Mangrove Maze, Indian Sundarbans channel network, 2016--2026\\
+Team Mangrove Maze Runners\\
+Mohd Hamza (PH22B016)}
+
+\subsection*{1. Images and graphs}
+\begin{itemize}
+  \item Downloaded the 10 Sentinel-2 NDWI images of the Sundarbans from the Copernicus Browser, one per year from October--November, 2016--2026 (no 2018 image).
+  \item Ran the masking and graph pipeline built by other team members on these images to produce the ten channel graphs G1--G10.
+\end{itemize}
+
+\subsection*{2. Temporal analysis}
+\begin{itemize}
+  \item Compared each year's graph with 10 random trees on the same nodes, using five parameters: independent cycles, bridge share, global efficiency, algebraic connectivity and inlet-to-sea path.
+  \item Plotted how each parameter changes over 2016--2026 against the random-tree baseline, and tested for trends with Kendall's $\tau$ (no significant trend).
+  \item Made the two temporal-analysis slides: ``Real network vs random trees'' and ``Trends over ten years''.
+\end{itemize}
+
+\subsection*{3. The 2023--2024 dip}
+\begin{itemize}
+  \item Investigated why loops fell and bridge share rose in 2023--24: searched cyclone and flood records, and found no event that fits the timing.
+  \item Showed the dip depends on the water threshold and on image colour, so it is a detection effect rather than a confirmed change.
+\end{itemize}
+
+\subsection*{4. Report}
+\begin{itemize}
+  \item Wrote the group report.
+\end{itemize}
+
+\subsection*{AI use}
+\begin{itemize}
+  \item Used Claude to help write my analysis code and to format the PDF report.
+\end{itemize}
+
+\end{document}

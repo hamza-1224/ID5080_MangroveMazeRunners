@@ -1,0 +1,11 @@
+graph,baseline,date,file
+G1,B1,2016-10-17,data_raw/images/17th October 2016.tiff
+G2,B2,2017-10-17,data_raw/images/17th October 2017.tiff
+G3,B3,2019-11-16,data_raw/images/16th November 2019.tiff
+G4,B4,2020-11-15,data_raw/images/15th Novemb er 2020.tiff
+G5,B5,2021-11-10,data_raw/images/10th November 2021.tiff
+G6,B6,2022-10-21,data_raw/images/21st October 2022.tiff
+G7,B7,2023-10-16,data_raw/images/16th October 2023.tiff
+G8,B8,2024-11-14,data_raw/images/14th November 2024.tiff
+G9,B9,2025-10-22,data_raw/images/22nd October 2025.tiff
+G10,B10,2026-10-20,data_raw/images/20th October 2026.tiff

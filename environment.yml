@@ -1,0 +1,24 @@
+name: rivgraph
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.2.3
+  - matplotlib=3.10
+  - networkx=3.2.1
+  - scikit-image=0.24.0
+  - shapely=2.1.2
+  - geopandas=1.1.4
+  - pyproj=3.7.2
+  - rasterio=1.4.4
+  - pyogrio=0.12.1
+  - contextily=1.7.1
+  - pillow
+  - pyyaml
+  - loguru=0.7.3
+  - fastdtw=0.3.4
+  - pip
+  - pip:
+      - git+https://github.com/VeinsOfTheEarth/RivGraph.git@f8745a645d822377c75e16f97ae995da32587695
